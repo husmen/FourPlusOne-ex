@@ -1,0 +1,6 @@
+# Ignore unecessary files & folders
+
+/140201115
+.*
+!/.gitignore
+
