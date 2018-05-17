@@ -1,0 +1,28 @@
+name: carnd-cpu
+channels:
+    - https://conda.anaconda.org/menpo
+    - conda-forge
+dependencies:
+    - python==3.5.2
+    - numpy
+    - matplotlib
+    - jupyter
+    - opencv3
+    - pillow
+    - scikit-learn
+    - scikit-image
+    - scipy
+    - h5py
+    - eventlet
+    - flask-socketio
+    - seaborn
+    - pandas
+    - ffmpeg
+    - imageio=2.1.2
+    - pyqt=4.11.4
+    - pydot=1.2.4=py35_0
+    - graphviz=2.38.0=6
+    - pip:
+        - moviepy
+        - tensorflow==0.12.1
+        - keras==2.0.6
